@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first game</title>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+	<body>
+	<form>
+	<div id="questionDiv">
+	<h1>The smartest Robot</h1>
+	<label for="question">Your question: </label>
+	<input type="text" placeholder="Ask Your Question" id="question">
+	</div>
+	<div id="showAnswer">
+	<img src="image/giphy.gif">
+	<h2>The answer is: </h2>
+	<h3 id="answer"></h3>
+	</div>
+	<div id="login">
+	<h2>Login as Administrator</h2>
+	<label for="name">Username: </label>
+	<br>
+	<input type="text" id="name">
+	<br>
+	<label for="password">Password: </label>
+	<br>
+	<input type="password" id="password">
+	<br>
+	<br>
+	<input id="Edgar" type="button" onclick="showAnswer()" value="Login and Answer the question">
+	</div>
+	</form>
+    <script src="js1.js"></script>
+	</body>
+</html>

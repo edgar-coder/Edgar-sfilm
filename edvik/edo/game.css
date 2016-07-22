@@ -1,0 +1,10 @@
+body{
+	background-image: url("image/robots.jpg");
+}
+h1,h2,div{
+	color: rgb(51, 255, 153);
+}
+#Edgar{
+	border-radius: 200px;
+	border: 1px solid red;
+}
